@@ -8,6 +8,7 @@ React Native Panorama viewer for Android and iOS.
 
 ## Mostly automatic installation (RN >= 0.60)
 
+`$ npm tsc`
 `$ npm install @lightbase/react-native-panorama-view --save` or
 `$ yarn add @lightbase/react-native-panorama-view`
 
