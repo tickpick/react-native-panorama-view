@@ -123,7 +123,7 @@ afterEvaluate { project ->
         archives androidSourcesJar
         archives androidJavadocJar
     }
-
+/*
     task installArchives(type: Upload) {
         configuration = configurations.archives
         repositories.mavenDeployer {
@@ -132,4 +132,5 @@ afterEvaluate { project ->
             configureReactNativePom pom
         }
     }
+    */
 }
