@@ -185,7 +185,7 @@ import ImageIO
 
     public func resetCameraAngles() {
         cameraNode.eulerAngles = SCNVector3Make(0, startAngle, 0)
-        totalX = Float.zero
+        totalX = 0.1 //Float.zero
         totalY = 3 //for some reason it doesnt start in the middle on the device but setting this to 3 does
         self.reportMovement(CGFloat(startAngle), xFov.toRadians(), callHandler: false)
     }
